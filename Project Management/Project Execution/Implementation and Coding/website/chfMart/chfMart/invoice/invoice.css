@@ -1,0 +1,60 @@
+body{
+    background-color: #eeeeee;
+}
+
+.header-top{
+    width:100%;
+    background-color: teal;
+}
+
+.header-top .logo{
+    text-align: center;
+}
+.header-top .logo img{
+    max-width: 100%;
+    width:140px;
+    height:160px;
+}
+
+.header-md{
+    width:100%;
+}
+
+.cus_info{
+    font-weight: 500;
+    font-size:14px;
+}
+
+.pull-right{
+    margin-top:120px;
+    text-align: right;
+    padding-right:50px;
+}
+
+.pull-right p{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.invoice-content{
+    margin-top:50px;
+}
+
+.invoice-total{
+    float:right;
+    margin-top:40px;
+    margin-right:50px;
+    width:200px;
+    height:100px;
+    border: 1px solid #000000;
+    padding-top:10px;
+}
+
+.invoice-total li{ 
+    font-weight:500;
+    font-size: 16px;  
+    padding-left:0; 
+}
+.invoice-total li:nth-child(2){
+    padding-bottom:10px;
+}
